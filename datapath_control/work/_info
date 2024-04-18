@@ -2,43 +2,43 @@ m255
 K4
 z2
 !s99 nomlopt
-!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+!s11f vlog 2021.3 2021.07, Jul 13 2021
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/jstine/Desktop/dldfall2022/Project/datapath_control
+Z0 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/datapath_control
 T_opt
-!s110 1669992329
-V@G?kK4J9<P81:gS:GedJz1
+!s110 1713391347
+VlU1=BBU?jK9WUNKgiVlXX0
 04 2 4 work tb fast 0
-=1-b07b25d4a6a8-638a0f88-de815-6f96
+=1-ac198e13c2ed-662046f1-38-2c20
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
-OL;O;2021.3_1;73
+OL;O;2021.3;73
 vadder
 Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1669992328
+Z3 !s110 1713391343
 !i10b 1
 !s100 BYE:iQ5eH=WUCP@ei=fQ?0
 IeI>iI_H2XfQzk?ci>Jfhf0
 S1
 R0
-Z4 w1669992194
+Z4 w1713204980
 8adder.sv
 Fadder.sv
 !i122 0
 Z5 L0 1 5
 Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2021.3_1;73
+Z7 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z8 !s108 1669992328.000000
+Z8 !s108 1713391342.000000
 Z9 !s107 tb.sv|top.sv|sub.sv|adder.sv|flopr.sv|
 Z10 !s90 -reportprogress|300|flopr.sv|adder.sv|sub.sv|top.sv|tb.sv|
 !i113 0
@@ -100,7 +100,7 @@ R3
 INYkAf?LYo>9>f3;@=Pkg=0
 S1
 R0
-w1669992309
+R4
 8tb.sv
 Ftb.sv
 !i122 0
