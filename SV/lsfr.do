@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog lfsr.sv lfsrr_tb.sv
+vlog lfsr.sv lfsr_tb.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.stimulus
@@ -39,10 +39,10 @@ view wave
 # Diplays All Signals recursively
 add wave -noupdate -divider -height 32 "FSM"
 add wave -hex /stimulus/dut/*
-# add wave -hex /stimulus/dut/shift_seed
-# add wave -hex /stimulus/dut/reset
-# add wave -hex /stimulus/dut/clk
 # add wave -hex /stimulus/dut/seed
+# add wave -hex /stimulus/dut/clk
+# add wave -hex /stimulus/dut/reset
+# add wave -hex /stimulus/dut/shift_seed
 
 add list -hex -r /stimulus/*
 add log -r /*
@@ -60,6 +60,6 @@ configure wave -rowmargin 4
 configure wave -childrowmargin 2
 
 -- Run the Simulation
-run 180 ns
+run 500 ns
 
 

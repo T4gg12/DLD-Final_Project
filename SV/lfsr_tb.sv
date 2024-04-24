@@ -8,6 +8,8 @@ module stimulus ();
    
    integer handle3;
    integer desc3;
+   integer iterations = 0;
+   logic[7:0] initial_output;
    
    lfsr dut(.seed(seed), .clk(clk), .reset(reset), .shift_seed(shift_seed));
 
@@ -20,6 +22,7 @@ module stimulus ();
    initial
      begin
       handle3 = $fopen("lsfr.out");
+      initial_output = shift_seed;
      end
 
    always @(posedge clk)
@@ -31,12 +34,21 @@ module stimulus ();
    // check results on falling edge of clk
    always @(negedge clk) begin
 		if(~reset) begin
-		//check if your output equals the initial output 
-		//if so, report how many iterations it took to repeat
-		//this should be (2^n) - 1
-		//if the output never repeats for 2^n iterations, report that
-		end
-	end
+      iterations = iterations + 1;
+      if(shift_seed == initial_output)
+      begin
+        if(iterations == (1<<8)-1)
+        begin
+          $display("Maximal LFSR sequence detected. Repeated after %d iterations.", iterations);
+		    end
+        else
+        begin
+          $display("LFSR sequence did not repeat after (2^n)-1 iterations.");
+        end
+        $finsih;
+	    end
+    end
+   end
    
 endmodule // tb
 

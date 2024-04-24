@@ -4,28 +4,76 @@ z0
 !s11f vlog 2021.3 2021.07, Jul 13 2021
 vlfsr
 Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1713484560
+!s110 1713495824
 !i10b 1
 !s100 0Dad7]OT_zTXU;adVT?If1
 I<H6T]Ojh]B4kDL`HC6ONa0
 S1
-dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/SV
-w1713484555
+Z1 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/SV
+w1713495821
 8lfsr.sv
 Flfsr.sv
-!i122 3
+!i122 6
 L0 1 30
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 OL;L;2021.3;73
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.3;73
 r1
 !s85 0
 31
-!s108 1713484560.000000
+!s108 1713495824.000000
 !s107 lfsr.sv|
 !s90 lfsr.sv|
 !i113 0
-Z3 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z4 tCvgOpt 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vlfsr_tb
+R0
+!s110 1713496954
+!i10b 1
+!s100 >SgRhoWT985]QElgi^<lm3
+I_bmYGNDn3FNG0?YkNdaD60
+S1
+R1
+w1713496776
+Z6 8lfsr_tb.sv
+Z7 Flfsr_tb.sv
+!i122 10
+Z8 L0 2 52
+R2
+R3
+r1
+!s85 0
+31
+!s108 1713496954.000000
+Z9 !s107 lfsr_tb.sv|
+Z10 !s90 lfsr_tb.sv|
+!i113 0
+R4
+R5
+vstimulus
+R0
+!s110 1713496585
+!i10b 1
+!s100 >H6B20TRFVPBIFK4V9mhX3
+IKXf`OR@9IS0o9Hn[6@be?0
+S1
+R1
+w1713496582
+R6
+R7
+!i122 8
+R8
+R2
+R3
+r1
+!s85 0
+31
+!s108 1713496585.000000
+R9
+R10
+!i113 0
+R4
+R5
 vtb
 R0
 !s110 1713391266
@@ -35,18 +83,18 @@ In]8XmTPHJSj]A]>8G`IQ]1
 S1
 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/Sv
 w1713391264
-8lfsr_tb.sv
-Flfsr_tb.sv
+R6
+R7
 !i122 0
 L0 2 40
-R1
 R2
+R3
 r1
 !s85 0
 31
 !s108 1713391266.000000
-!s107 lfsr_tb.sv|
-!s90 lfsr_tb.sv|
+R9
+R10
 !i113 0
-R3
 R4
+R5

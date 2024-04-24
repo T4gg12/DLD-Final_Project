@@ -29,6 +29,7 @@ assign taps = shift_seed_reg[3] ^ shift_seed_reg[2];
 
 endmodule
 
+/*
 module lfsr64 (seed, clk, reset, shift_seed);
 //inputs and outputs for the full seed size (64 bits)
 
@@ -37,3 +38,4 @@ module lfsr64 (seed, clk, reset, shift_seed);
 //64 bit version
 
 endmodule
+*/
