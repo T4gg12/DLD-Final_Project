@@ -11,5 +11,24 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# lfsr.do
-# invalid command name "lfsr.do"
+# do lfsr.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:02:35 on Apr 24,2024
+# vlog -reportprogress 300 lfsr.sv lfsr_tb.sv 
+# -- Compiling module lfsr
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:02:35 on Apr 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:02:35 on Apr 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.lfsr(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 17:02:52 on Apr 24,2024, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0

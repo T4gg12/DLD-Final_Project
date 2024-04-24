@@ -2,27 +2,21 @@ module lfsr(seed, clk, reset, shift_seed);
 //inputs and outputs for a smaller implementation
 //perhaps 8 or 16 bits
 input logic [7:0] seed;
-input logic [7:0] clk;
+input logic clk;
 input logic reset;
 output logic [7:0] shift_seed;
 
-reg [7:0] shift_seed_reg, shift_seed_next;
-wire taps;
+logic [7:0] temp;
+logic temp1;
 
-always @(posedge clk, negedge reset)
-begin
-    if(~reset)
-        shift_seed_reg <= 'd1;
-    else
-        shift_seed_reg <= shift_seed_next;
+always@(posedge clk) begin
+    if(reset) shift_seed <= seed;
+    else shift_seed <= temp;
 end
 
-always @(taps, shift_seed_reg)
-    shift_seed_next = {taps, shift_seed_reg[7:0]};
-
-assign shift_seed = shift_seed_reg;
-
-assign taps = shift_seed_reg[3] ^ shift_seed_reg[2];
+always_comb begin
+    temp <= {shift_seed[6:0], shift_seed[7] ~^ shift_seed[5] ~^ shift_seed[4] ~^ shift_seed[3]};
+end
 //your implementation of the LFSR.  Remember that this 
 //implementation has memory so it should be done 
 //with some form of a flip-flop based register

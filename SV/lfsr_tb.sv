@@ -15,20 +15,21 @@ module stimulus ();
 
    always     
      begin
-	    clk = 1; #1;
-      clk = 0; #1;
+	    clk = 1'b1;
+      forever #5 clk = ~clk;
      end
+     
    
    initial
      begin
       handle3 = $fopen("lsfr.out");
-      initial_output = shift_seed;
+      #500 $finish;
      end
 
    always @(posedge clk)
      begin
     desc3 = handle3;
-    #5 $fdisplay(desc3, "%b", shift_seed);
+    #5 $fdisplay(desc3, "%b %b",reset, shift_seed);
      end
 
    // check results on falling edge of clk
@@ -45,7 +46,7 @@ module stimulus ();
         begin
           $display("LFSR sequence did not repeat after (2^n)-1 iterations.");
         end
-        $finsih;
+        $finish;
 	    end
     end
    end
