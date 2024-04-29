@@ -9,54 +9,54 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/zafranc/Downloads/DLD-Final_Project/SV
+Z0 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/SV
 T_opt
-Z1 !s110 1713996155
-Vb8`R5VR2I_ZF_jcFzPMYG2
+!s110 1714362520
+Vj7DAS2F^fTU4FOC]ZiG_40
 04 8 4 work stimulus fast 0
-=1-00be43900f5a-6629817b-2bb-2c8c
+=1-ac198e13c2ed-662f1897-398-3f94
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+Z1 tCvgOpt 0
 n@_opt
 OL;O;2021.3;73
 vlfsr
-Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-R1
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1714362519
 !i10b 1
-!s100 PLHM9[hW`l1`=9cP;mD`O3
-Ie9d_4BP=2bQ_m><D`A:7L2
+!s100 h5Zj]m0B]Yk?ga;4[ho<O1
+I9SEYAf<_=EWHbQ10]fi_U0
 S1
 R0
-w1713993953
+w1714362195
 8lfsr.sv
 Flfsr.sv
 !i122 0
-L0 1 24
+L0 25 19
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z6 !s108 1713996155.000000
+Z6 !s108 1714362519.000000
 Z7 !s107 lfsr_tb.sv|lfsr.sv|
 Z8 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
 !i113 0
 Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
-vstimulus
-R3
 R1
+vstimulus
+R2
+R3
 !i10b 1
-!s100 N9DfECYoB1Dd<1YimaoZ@0
-IPDACUU;nabGWYC=m@AH7U1
+!s100 h9FM]ndWBzJn8EDDT>_ag2
+I9R0bben]AEK@G4dA:NW[10
 S1
 R0
-w1713995586
+w1714362234
 8lfsr_tb.sv
 Flfsr_tb.sv
 !i122 0
-L0 2 53
+L0 1 64
 R4
 R5
 r1
@@ -67,4 +67,4 @@ R7
 R8
 !i113 0
 R9
-R2
+R1
