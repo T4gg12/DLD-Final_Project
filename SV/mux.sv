@@ -26,14 +26,14 @@
 
 /* verilator lint_off DECLFILENAME */
 
-module mux2 #(parameter WIDTH = 8) (
+module mux2 #(parameter WIDTH = 64) (
   input  logic [WIDTH-1:0] d0, d1, 
   input  logic             s, 
   output logic [WIDTH-1:0] y);
 
   assign y = s ? d1 : d0; 
 endmodule
-
+/*
 module mux3 #(parameter WIDTH = 8) (
   input  logic [WIDTH-1:0] d0, d1, d2,
   input  logic [1:0]       s, 
@@ -67,16 +67,15 @@ module mux6 #(parameter WIDTH = 8) (
 endmodule
 
 module mux16 #(parameter WIDTH = 8)
-   (input logic [WIDTH-1:0] d0, d1, d2, d3, d4, input [3:0] s,
-    output logic [WIDTH-1:0] y);
+   (input logic [1:0] d0, d1, d2, d3, input [2:0] s,
+    output logic [1:0] y);
 
    always_comb
      case(s)
-       4'b0001: y = d0;
-       4'b0010: y = d1;
-       4'b0100: y = d2;
-       4'b1000: y = d3;
-       default: y = d4;
+       d0 = 2'b00;
+       d1 = 2'b01;
+       d2 = 2'b10;
+       d3 = 2'b11; 
      endcase // case (s)
 endmodule // mux16
 

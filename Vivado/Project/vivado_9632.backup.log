@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  1 15:29:33 2024
+# Process ID: 9632
+# Current directory: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14760 C:\Users\zafranc\Downloads\DLD-Final_Project\Vivado\Project\Project.xpr
+# Log file: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/vivado.log
+# Journal file: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.xpr
+INFO: [Project 1-313] Project file moved from '/home/rerra/Desktop/dldfall2022/Project/Vivado/Project' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/all.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/all.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/dldfall2022-main/Lab3/SV/clk_div.sv', nor could it be found using path 'C:/home/rerra/Desktop/Downloads/dldfall2022-main/Lab3/SV/clk_div.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/datapath.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/datapath.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/fsm.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/fsm.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/mux.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/mux.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/register.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/register.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/audio_clock_regeneration_packet.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/audio_clock_regeneration_packet.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/audio_info_frame.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/audio_info_frame.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/audio_sample_packet.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/audio_sample_packet.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/auxiliary_video_information_info_frame.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/auxiliary_video_information_info_frame.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/hdmi.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/hdmi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/hdmi_top.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/hdmi_top.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/packet_assembler.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/packet_assembler.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/packet_picker.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/packet_picker.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/pll.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/pll.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/serializer.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/serializer.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/source_product_description_info_frame.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/source_product_description_info_frame.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/tmds_channel.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/tmds_channel.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/attributemap.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/attributemap.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/console.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/console.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/hdmi_files/hdmi_working/glyphmap.sv', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/hdmi_files/hdmi_working/glyphmap.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/attributemap.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/attributemap.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/audio_clock_regeneration_packet.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/audio_clock_regeneration_packet.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/audio_info_frame.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/audio_info_frame.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/audio_sample_packet.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/audio_sample_packet.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/auxiliary_video_information_info_frame.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/auxiliary_video_information_info_frame.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/console.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/console.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/glyphmap.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/glyphmap.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/hdmi.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/hdmi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/hdmi_top.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/hdmi_top.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/packet_assembler.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/packet_assembler.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/packet_picker.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/packet_picker.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/pll.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/pll.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/serializer.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/serializer.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/source_product_description_info_frame.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/source_product_description_info_frame.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Downloads/hdmi_working/tmds_channel.sv', nor could it be found using path 'C:/home/rerra/Downloads/hdmi_working/tmds_channel.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Demo/archive_project_summary.txt', nor could it be found using path 'C:/home/rerra/Desktop/dldfall2022/Project/Demo/archive_project_summary.txt'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.816 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  1 16:57:10 2024...

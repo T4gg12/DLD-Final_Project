@@ -9,50 +9,221 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/SV
+Z0 dC:/Users/zafranc/Downloads/DLD-Final_Project/SV
 T_opt
-!s110 1714362520
-Vj7DAS2F^fTU4FOC]ZiG_40
+Z1 !s110 1714595299
+VblB1c3^Jkg`E[:lK2DC7[2
 04 8 4 work stimulus fast 0
-=1-ac198e13c2ed-662f1897-398-3f94
+=1-00be43905a36-6632a5e3-176-19ac
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
 OL;O;2021.3;73
-vlfsr
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1714362519
+R0
+vcallTo
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1714601916
 !i10b 1
-!s100 h5Zj]m0B]Yk?ga;4[ho<O1
-I9SEYAf<_=EWHbQ10]fi_U0
+!s100 ZVK2I6E_P?X[GI1IOL`1Q2
+IIHdl2T>@Q@6Ck^>z>90QU2
 S1
 R0
-w1714362195
-8lfsr.sv
-Flfsr.sv
-!i122 0
-L0 25 19
+w1714601913
+8callTo.sv
+FcallTo.sv
+!i122 1
+L0 1 22
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z6 !s108 1714362519.000000
-Z7 !s107 lfsr_tb.sv|lfsr.sv|
-Z8 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
+!s108 1714601916.000000
+!s107 callTo.sv|
+!s90 callTo.sv|
 !i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vstimulus
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
+ncall@to
+vFSM
 R3
+!s110 1714602245
+!i10b 1
+!s100 cWaYQ[0?[ZL20^<l87kRe3
+Il99L9RXFdg6^f;Uj5XMGo1
+S1
+R0
+w1714602242
+8fsm.sv
+Ffsm.sv
+!i122 4
+L0 1 52
+R4
+R5
+r1
+!s85 0
+31
+!s108 1714602244.000000
+!s107 fsm.sv|
+!s90 fsm.sv|
+!i113 0
+R6
+R2
+n@f@s@m
+vlfsr
+R3
+R1
+!i10b 1
+!s100 h5Zj]m0B]Yk?ga;4[ho<O1
+I9SEYAf<_=EWHbQ10]fi_U0
+S1
+R0
+Z7 w1714595270
+8lfsr.sv
+Flfsr.sv
+!i122 0
+L0 25 19
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1714595298.000000
+Z9 !s107 lfsr_tb.sv|lfsr.sv|
+Z10 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
+!i113 0
+R6
+R2
+vmux2
+R3
+!s110 1714602054
+!i10b 1
+!s100 hOcNRabLfZUNYz8RoR[0l0
+I`1W<m<D?dD=[4JnjMVJ:P3
+S1
+R0
+w1714602050
+Z11 8mux.sv
+Z12 Fmux.sv
+!i122 3
+L0 29 7
+R4
+R5
+r1
+!s85 0
+31
+!s108 1714602054.000000
+Z13 !s107 mux.sv|
+Z14 !s90 mux.sv|
+!i113 0
+R6
+R2
+vmux3
+R3
+Z15 !s110 1714602020
+!i10b 1
+!s100 Bza1J5zKLEK?9>MnSU0T31
+I_]]VT2A_KmGD1oWYeFhz^1
+S1
+R0
+Z16 w1714601998
+R11
+R12
+!i122 2
+L0 41 7
+R4
+R5
+r1
+!s85 0
+31
+Z17 !s108 1714602020.000000
+R13
+R14
+!i113 0
+R6
+R2
+vmux4
+R3
+R15
+!i10b 1
+!s100 m`<EJmn>3AL483O:9J;kB3
+IJ8GW=U:]?=YUiJTCSN6HQ3
+S1
+R0
+R16
+R11
+R12
+!i122 2
+L0 49 7
+R4
+R5
+r1
+!s85 0
+31
+R17
+R13
+R14
+!i113 0
+R6
+R2
+vmux5
+R3
+R15
+!i10b 1
+!s100 DTPJ37>>PbQN1R5@YHSB02
+IW=I0eV[o5TEnNI>5dg9[E0
+S1
+R0
+R16
+R11
+R12
+!i122 2
+L0 57 7
+R4
+R5
+r1
+!s85 0
+31
+R17
+R13
+R14
+!i113 0
+R6
+R2
+vmux6
+R3
+R15
+!i10b 1
+!s100 ]1SlVlPi[CN@jQA^B?jZG1
+IIT6^oUkdBo<F<l5[MRD`?2
+S1
+R0
+R16
+R11
+R12
+!i122 2
+L0 65 7
+R4
+R5
+r1
+!s85 0
+31
+R17
+R13
+R14
+!i113 0
+R6
+R2
+vstimulus
+R3
+R1
 !i10b 1
 !s100 h9FM]ndWBzJn8EDDT>_ag2
 I9R0bben]AEK@G4dA:NW[10
 S1
 R0
-w1714362234
+R7
 8lfsr_tb.sv
 Flfsr_tb.sv
 !i122 0
@@ -62,9 +233,9 @@ R5
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
-R1
+R10
+!i113 0
+R6
+R2
