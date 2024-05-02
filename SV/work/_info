@@ -23,29 +23,53 @@ OL;O;2021.3;73
 R0
 vcallTo
 Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1714601916
+!s110 1714613776
 !i10b 1
-!s100 ZVK2I6E_P?X[GI1IOL`1Q2
-IIHdl2T>@Q@6Ck^>z>90QU2
+!s100 NNk6f3=Pm;]5422fZYY><0
+II[QBO]@i4H09_l_ULMfKW0
 S1
-R0
-w1714601913
+Z4 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/SV
+w1714612943
 8callTo.sv
 FcallTo.sv
-!i122 1
-L0 1 22
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2021.3;73
+!i122 5
+L0 1 44
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.3;73
 r1
 !s85 0
 31
-!s108 1714601916.000000
+!s108 1714613776.000000
 !s107 callTo.sv|
 !s90 callTo.sv|
 !i113 0
-Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 ncall@to
+vclk_div
+R3
+!s110 1714613784
+!i10b 1
+!s100 o:h2TU8fY2lzm`miSclPg3
+ILn?WUf1Ub`WPahh?[lcjX1
+S1
+R4
+w1714613521
+8clk_div.sv
+Fclk_div.sv
+!i122 6
+L0 1 18
+R5
+R6
+r1
+!s85 0
+31
+!s108 1714613784.000000
+!s107 clk_div.sv|
+!s90 clk_div.sv|
+!i113 0
+R7
+R2
 vFSM
 R3
 !s110 1714602245
@@ -59,8 +83,8 @@ w1714602242
 Ffsm.sv
 !i122 4
 L0 1 52
-R4
 R5
+R6
 r1
 !s85 0
 31
@@ -68,7 +92,7 @@ r1
 !s107 fsm.sv|
 !s90 fsm.sv|
 !i113 0
-R6
+R7
 R2
 n@f@s@m
 vlfsr
@@ -79,21 +103,21 @@ R1
 I9SEYAf<_=EWHbQ10]fi_U0
 S1
 R0
-Z7 w1714595270
+Z8 w1714595270
 8lfsr.sv
 Flfsr.sv
 !i122 0
 L0 25 19
-R4
 R5
+R6
 r1
 !s85 0
 31
-Z8 !s108 1714595298.000000
-Z9 !s107 lfsr_tb.sv|lfsr.sv|
-Z10 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
+Z9 !s108 1714595298.000000
+Z10 !s107 lfsr_tb.sv|lfsr.sv|
+Z11 !s90 -reportprogress|300|lfsr.sv|lfsr_tb.sv|
 !i113 0
-R6
+R7
 R2
 vmux2
 R3
@@ -104,116 +128,116 @@ I`1W<m<D?dD=[4JnjMVJ:P3
 S1
 R0
 w1714602050
-Z11 8mux.sv
-Z12 Fmux.sv
+Z12 8mux.sv
+Z13 Fmux.sv
 !i122 3
 L0 29 7
-R4
 R5
+R6
 r1
 !s85 0
 31
 !s108 1714602054.000000
-Z13 !s107 mux.sv|
-Z14 !s90 mux.sv|
+Z14 !s107 mux.sv|
+Z15 !s90 mux.sv|
 !i113 0
-R6
+R7
 R2
 vmux3
 R3
-Z15 !s110 1714602020
+Z16 !s110 1714602020
 !i10b 1
 !s100 Bza1J5zKLEK?9>MnSU0T31
 I_]]VT2A_KmGD1oWYeFhz^1
 S1
 R0
-Z16 w1714601998
-R11
+Z17 w1714601998
 R12
+R13
 !i122 2
 L0 41 7
-R4
 R5
+R6
 r1
 !s85 0
 31
-Z17 !s108 1714602020.000000
-R13
+Z18 !s108 1714602020.000000
 R14
+R15
 !i113 0
-R6
+R7
 R2
 vmux4
 R3
-R15
+R16
 !i10b 1
 !s100 m`<EJmn>3AL483O:9J;kB3
 IJ8GW=U:]?=YUiJTCSN6HQ3
 S1
 R0
-R16
-R11
+R17
 R12
+R13
 !i122 2
 L0 49 7
-R4
 R5
+R6
 r1
 !s85 0
 31
-R17
-R13
+R18
 R14
+R15
 !i113 0
-R6
+R7
 R2
 vmux5
 R3
-R15
+R16
 !i10b 1
 !s100 DTPJ37>>PbQN1R5@YHSB02
 IW=I0eV[o5TEnNI>5dg9[E0
 S1
 R0
-R16
-R11
+R17
 R12
+R13
 !i122 2
 L0 57 7
-R4
 R5
+R6
 r1
 !s85 0
 31
-R17
-R13
+R18
 R14
+R15
 !i113 0
-R6
+R7
 R2
 vmux6
 R3
-R15
+R16
 !i10b 1
 !s100 ]1SlVlPi[CN@jQA^B?jZG1
 IIT6^oUkdBo<F<l5[MRD`?2
 S1
 R0
-R16
-R11
+R17
 R12
+R13
 !i122 2
 L0 65 7
-R4
 R5
+R6
 r1
 !s85 0
 31
-R17
-R13
+R18
 R14
+R15
 !i113 0
-R6
+R7
 R2
 vstimulus
 R3
@@ -223,19 +247,19 @@ R1
 I9R0bben]AEK@G4dA:NW[10
 S1
 R0
-R7
+R8
 8lfsr_tb.sv
 Flfsr_tb.sv
 !i122 0
 L0 1 64
-R4
 R5
+R6
 r1
 !s85 0
 31
-R8
 R9
 R10
+R11
 !i113 0
-R6
+R7
 R2
