@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module callTo (
     input logic [63:0] seed,
     input logic clk,
@@ -12,7 +13,7 @@ module callTo (
     logic [63:0] dp_shift_seed;
     logic fsmOut;
 
-    FSM dut_fsm (
+    fsm dut_fsm (
         .clk(clk),
         .reset(reset),
         .switch1(sw1),
@@ -25,7 +26,7 @@ module callTo (
     lfsr dut_lfsr (
         .clk(clk),
         .reset(reset),
-        .seed(seed),
+        .seed(fsm_shift_seed),
         .shift_seed(lfsr_shift_seed)
     );
 
@@ -33,6 +34,7 @@ module callTo (
         .grid(fsm_shift_seed),
         .grid_evolve(dp_shift_seed)
     );
+    
 
     mux2 #(64) dut_mux (
         .d0(lfsr_shift_seed),
@@ -40,5 +42,4 @@ module callTo (
         .s(fsmOut),
         .y(shift_seed)
     );
-
 endmodule

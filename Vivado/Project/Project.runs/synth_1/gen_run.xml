@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1714604235">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1714672329">
   <File Type="PA-TCL" Name="top_demo.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="top_demo_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="top_demo_reports.tcl"/>
@@ -72,6 +72,13 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../digit2segments.sv"/>
         <Attr Name="ImportTime" Val="1613138864"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../SV/fsm.sv">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

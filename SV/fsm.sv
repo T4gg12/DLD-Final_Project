@@ -1,4 +1,4 @@
-module FSM (clk, reset, switch1, switch2, switch2, seed, shift_seed, out1);
+module fsm (clk, reset, switch1, switch2, seed, shift_seed, out1);
 
    input logic  clk;
    input logic  reset;
@@ -27,26 +27,19 @@ module FSM (clk, reset, switch1, switch2, switch2, seed, shift_seed, out1);
             nextstate <= S2;
           else
             nextstate <= S0;
+            shift_seed = seed;
        end
 
        S1: begin
         out1 = 1'b0;
-        if(switch1)
-          nextstate <= S1;
-        else if(switch2)
-          nextstate <= S2;
-        else
-          nextstate <= S0;
+        nextstate <= S0;
+        shift_seed = seed;
        end
 
        S2: begin
         out1 = 1'b1;
-        if(switch1)
-          nextstate <= S1;
-        else if(switch2)
-          nextstate <= S2;
-        else
-          nextstate <= S0;
+        nextstate <= S0;
+        shift_seed = seed;
        end
     endcase
 endmodule

@@ -58,11 +58,11 @@ module top_demo
   // Place Conway Game of Life instantiation here
   logic out_clk;
   logic [63:0] n2;
-  logic [63:0]seed8;
+  logic [63:0] seed8;
   assign seed8 = 64'h0412_6424_0034_3C28;
   
-  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[3]), .clk_en(out_clk));
-  callTo callTo_inst(.seed(seed8), .clk(out_clk), .reset(sw[0]), .sw1(sw[1]), .sw2(sw[2]), .shift_seed(n2)); 
+  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[0]), .clk_en(out_clk));
+  callTo callTo_inst(.seed(seed8), .clk(out_clk), .reset(sw[1]), .sw1(sw[2]), .sw2(sw[3]), .shift_seed(n2)); 
  
   // HDMI
   // logic hdmi_out_en;

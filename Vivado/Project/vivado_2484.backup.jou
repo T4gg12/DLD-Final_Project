@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  1 17:25:54 2024
+# Process ID: 2484
+# Current directory: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15872 C:\Users\zafranc\Downloads\DLD-Final_Project\Vivado\Project\Project.xpr
+# Log file: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/vivado.log
+# Journal file: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/callTo.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
 
@@ -93,6 +95,7 @@ read_verilog -library xil_defaultlib -sv {
   C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv
   C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv
   C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv
+  C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv
   C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv
   C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv
   C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv
