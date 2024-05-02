@@ -1,5 +1,7 @@
-`timescale 1ns / 1ps
-module callTo (
+module callTo #(
+    parameter SW1_ENABLED = 0,
+    parameter SW2_ENABLED = 0
+)(
     input logic [63:0] seed,
     input logic clk,
     input logic reset,
@@ -23,18 +25,23 @@ module callTo (
         .out1(fsmOut)
     );
 
-    lfsr dut_lfsr (
-        .clk(clk),
-        .reset(reset),
-        .seed(fsm_shift_seed),
-        .shift_seed(lfsr_shift_seed)
-    );
+    // Conditional instantiation for LFSR module
+    if (SW1_ENABLED) begin : lfsr_inst
+        lfsr dut_lfsr (
+            .clk(clk),
+            .reset(reset),
+            .seed(fsm_shift_seed),
+            .shift_seed(lfsr_shift_seed)
+        );
+    end
 
-    datapath dut_dp (
-        .grid(fsm_shift_seed),
-        .grid_evolve(dp_shift_seed)
-    );
-    
+    // Conditional instantiation for Datapath module
+    if (SW2_ENABLED) begin : datapath_inst
+        datapath dut_dp (
+            .grid(fsm_shift_seed),
+            .grid_evolve(dp_shift_seed)
+        );
+    end
 
     mux2 #(64) dut_mux (
         .d0(lfsr_shift_seed),
@@ -42,4 +49,5 @@ module callTo (
         .s(fsmOut),
         .y(shift_seed)
     );
+
 endmodule

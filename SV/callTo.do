@@ -27,30 +27,28 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv callTo_tb.sv 
+vlog callTo_tb.sv callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv
 
 # start and run simulation
-vsim -voptargs=+acc work.callTo
+vsim -voptargs=+acc work.callTo_tb
 
 view list
 view wave
 
 -- display input and output signals as hexidecimal values
 # Diplays All Signals recursively
-add wave -noupdate -divider -height 32 "callTo"
-add wave -hex /callTo_tb/dut/*
+add wave -noupdate -divider -height 32 "callTo_tb"
 # add wave -hex /callTo_tb/dut/clk
 # add wave -hex /callTo_tb/dut/sw1
 # add wave -hex /callTo_tb/dut/sw2
 # add wave -hex /callTo_tb/dut/reset
 # add wave -hex /callTo_tb/dut/seed
 # add wave -hex /callTo_tb/dut/shift_seed
-# add wave -hex /callTo_tb/dut/fsmOut 
 
 
 
 
-add list -hex -r /callTo/*
+add list -hex -r /callTo_tb/*
 add log -r /*
 
 -- Set Wave Output Items 

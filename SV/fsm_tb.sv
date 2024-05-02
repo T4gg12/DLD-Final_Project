@@ -14,7 +14,15 @@ module fsm_tb ();
    integer desc3;
    
    // Instantiate DUT
-   FSM dut (.seed(seed), .clk(clk), .reset(reset), .switch1(switch1), .switch2(switch2), .shift_seed(y), .out1(out));   
+   fsm dut (
+     .seed(seed), 
+     .clk(clk), 
+     .reset(reset), 
+     .switch1(switch1), 
+     .switch2(switch2), 
+     .shift_seed(y), 
+     .out1(out)
+     );   
    
    // Setup the clock to toggle every 1 time units 
    initial 
@@ -45,7 +53,7 @@ module fsm_tb ();
           #10; // Assert reset for 5 clock cycles
           reset = 0;
           #10; // Release reset after 5 clock cycles
-          handle3 = $fopen("lsfr.out", "w"); // Open output file
+          handle3 = $fopen("fsm.out", "w"); // Open output file
      end
 
    initial 
@@ -54,10 +62,6 @@ module fsm_tb ();
      #1   reset = 1'b0;
      #1   switch1= 1'b1;
      #1   switch2= 1'b0;
-
-          // all 
-     #41  switch1=1'b1;
-     #0   switch2=1'b1;
 
           // right only
      #41  switch1=1'b0;

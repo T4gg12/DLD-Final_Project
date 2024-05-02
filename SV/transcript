@@ -13,8 +13,9 @@
 # //
 # do callTo.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 12:45:37 on May 02,2024
-# vlog -reportprogress 300 callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv callTo_tb.sv 
+# Start time: 15:10:34 on May 02,2024
+# vlog -reportprogress 300 callTo_tb.sv callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv 
+# -- Compiling module callTo_tb
 # -- Compiling module callTo
 # -- Compiling module fsm
 # -- Compiling module lfsr
@@ -24,17 +25,17 @@
 # -- Compiling module evolve8
 # -- Compiling module rules
 # -- Compiling module mux2
-# -- Compiling module callTo_tb
 # 
 # Top level modules:
 # 	callTo_tb
-# End time: 12:45:37 on May 02,2024, Elapsed time: 0:00:00
+# End time: 15:10:35 on May 02,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.callTo 
-# Start time: 12:45:37 on May 02,2024
+# vsim -voptargs="+acc" work.callTo_tb 
+# Start time: 15:10:35 on May 02,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "fsm(fast)".
 # Loading sv_std.std
+# Loading work.callTo_tb(fast)
 # Loading work.callTo(fast)
 # Loading work.fsm(fast)
 # Loading work.lfsr(fast)
@@ -46,10 +47,6 @@
 # Loading work.mux2(fast)
 # .main_pane.list.interior.cs.body
 # .main_pane.wave.interior.cs.body.pw.wf
-# ** UI-Msg: (vish-4014) No objects found matching '/callTo_tb/dut/*'.
-# Error in macro ./callTo.do line 41
-# ** UI-Msg: (vish-4014) No objects found matching '/callTo_tb/dut/*'.
-#     while executing
-# "add wave -noupdate -divider -height 32 "callTo""
-# End time: 12:46:08 on May 02,2024, Elapsed time: 0:00:31
+add wave -r sim:/callTo_tb/*
+# End time: 15:11:51 on May 02,2024, Elapsed time: 0:01:16
 # Errors: 0, Warnings: 0
