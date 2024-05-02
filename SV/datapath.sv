@@ -4,11 +4,25 @@
  
  */
 
-module datapath ( grid, grid_evolve );
+module datapath ( grid, grid_evolve, clk, rst );
 
    output logic [63:0] 	grid_evolve;
    input logic [63:0] 	grid;
-   
+   input logic clk;
+   input logic rst;
+
+    logic clk_en;
+    logic [63:0] grid_reg;
+    
+    // Register to synchronize grid input with clk_en
+    always_ff @(posedge clk_en, posedge rst)
+    begin
+        if (rst)
+            grid_reg <= '0;
+        else
+            grid_reg <= grid;
+    end 
+
    evolve3 e0_0 (grid_evolve[0], grid[1], grid[8], grid[9], grid[0]);
    evolve5 e0_1 (grid_evolve[1], grid[0], grid[2], grid[8], grid[9], grid[10], grid[1]);
    evolve5 e0_2 (grid_evolve[2], grid[1], grid[3], grid[9], grid[10], grid[11], grid[2]);

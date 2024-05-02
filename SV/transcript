@@ -13,8 +13,8 @@
 # //
 # do callTo.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 15:10:34 on May 02,2024
-# vlog -reportprogress 300 callTo_tb.sv callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv 
+# Start time: 16:50:54 on May 02,2024
+# vlog -reportprogress 300 callTo_tb.sv callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv clk_div.sv 
 # -- Compiling module callTo_tb
 # -- Compiling module callTo
 # -- Compiling module fsm
@@ -25,13 +25,14 @@
 # -- Compiling module evolve8
 # -- Compiling module rules
 # -- Compiling module mux2
+# -- Compiling module clk_div
 # 
 # Top level modules:
 # 	callTo_tb
-# End time: 15:10:35 on May 02,2024, Elapsed time: 0:00:01
+# End time: 16:50:54 on May 02,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.callTo_tb 
-# Start time: 15:10:35 on May 02,2024
+# Start time: 16:50:54 on May 02,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "fsm(fast)".
 # Loading sv_std.std
@@ -40,6 +41,7 @@
 # Loading work.fsm(fast)
 # Loading work.lfsr(fast)
 # Loading work.datapath(fast)
+# Loading work.clk_div(fast)
 # Loading work.evolve3(fast)
 # Loading work.rules(fast)
 # Loading work.evolve5(fast)
@@ -48,5 +50,5 @@
 # .main_pane.list.interior.cs.body
 # .main_pane.wave.interior.cs.body.pw.wf
 add wave -r sim:/callTo_tb/*
-# End time: 15:11:51 on May 02,2024, Elapsed time: 0:01:16
+# End time: 16:51:17 on May 02,2024, Elapsed time: 0:00:23
 # Errors: 0, Warnings: 0

@@ -39,7 +39,9 @@ module callTo #(
     if (SW2_ENABLED) begin : datapath_inst
         datapath dut_dp (
             .grid(fsm_shift_seed),
-            .grid_evolve(dp_shift_seed)
+            .grid_evolve(dp_shift_seed),
+            .rst(reset),
+            .clk(clk)
         );
     end
 
