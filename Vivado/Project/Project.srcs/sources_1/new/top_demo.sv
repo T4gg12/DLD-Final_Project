@@ -61,8 +61,8 @@ module top_demo
   logic [63:0]seed8;
   assign seed8 = 64'h0412_6424_0034_3C28;
   
-  clk_div dut(.clk(sysclk_125mhz), .rst(sw[3]), .clk_en(out_clk));
-  callTo dut1(.seed(seed8), .clk(out_clk), .reset(sw[0]), .sw1(sw[1]), .sw2(sw[2]), .shift_seed(n2)); 
+  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[3]), .clk_en(out_clk));
+  callTo callTo_inst(.seed(seed8), .clk(out_clk), .reset(sw[0]), .sw1(sw[1]), .sw2(sw[2]), .shift_seed(n2)); 
  
   // HDMI
   // logic hdmi_out_en;
