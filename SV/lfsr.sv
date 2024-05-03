@@ -35,7 +35,7 @@ always_ff @(posedge clk or posedge reset) begin
     if(reset)
         shift_seed <= seed;
     else begin
-        temp = {shift_seed[62:0], shift_seed[63] ^ shift_seed[61] ^ shift_seed[59] ^ shift_seed[58]};
+        temp = {shift_seed[63:0], shift_seed[63] ^ shift_seed[62] ^ shift_seed[60] ^ shift_seed[59]};
         shift_seed <= temp;
     end
 end

@@ -12,6 +12,7 @@
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source top_demo.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1506.391 ; gain = 160.535
 Command: synth_design -top top_demo -part xc7z020clg484-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -19,16 +20,18 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6628
+INFO: [Synth 8-7075] Helper process launched with PID 36452
 WARNING: [Synth 8-11014] non-net output port 'clk_audio_counter_wrap' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:13]
 WARNING: [Synth 8-11014] non-net output port 'cx' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:81]
 WARNING: [Synth 8-11014] non-net output port 'cy' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:82]
+INFO: [Synth 8-11241] undeclared symbol 'seed8', assumed default net type 'wire' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:97]
 WARNING: [Synth 8-10388] /* is inside a comment [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv:82]
 WARNING: [Synth 8-11014] non-net output port 'counter' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:11]
 WARNING: [Synth 8-9661] initial value of parameter 'VIDEO_RATE' is omitted [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:4]
 WARNING: [Synth 8-11014] non-net output port 'tmds' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:16]
+INFO: [Synth 8-11241] undeclared symbol 'colorSwitch', assumed default net type 'wire' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:54]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2351.055 ; gain = 410.867
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2348.914 ; gain = 410.395
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top_demo' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:1]
 INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv:1]
@@ -159,7 +162,7 @@ INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/
 INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
 INFO: [Synth 8-6155] done synthesizing module 'serializer' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
 INFO: [Synth 8-6155] done synthesizing module 'hdmi' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
-WARNING: [Synth 8-689] width (10) of port connection 'cx' does not match port width (11) of module 'hdmi' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:53]
+WARNING: [Synth 8-689] width (10) of port connection 'cx' does not match port width (11) of module 'hdmi' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:54]
 INFO: [Synth 8-6155] done synthesizing module 'hdmi_top' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
 INFO: [Synth 8-6157] synthesizing module 'segment_driver' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
 INFO: [Synth 8-226] default block is never used [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:63]
@@ -277,6 +280,7 @@ WARNING: [Synth 8-7129] Port HDMI_SDA in module hdmi_top is either unconnected o
 WARNING: [Synth 8-7129] Port HDMI_SCL in module hdmi_top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port HDMI_CEC in module hdmi_top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port HDMI_HPD in module hdmi_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port colorSwitch in module hdmi_top is either unconnected or has no load
 WARNING: [Synth 8-7129] Port led[7] in module top_demo is either unconnected or has no load
 WARNING: [Synth 8-7129] Port led[6] in module top_demo is either unconnected or has no load
 WARNING: [Synth 8-7129] Port led[5] in module top_demo is either unconnected or has no load
@@ -287,18 +291,18 @@ WARNING: [Synth 8-7129] Port led[1] in module top_demo is either unconnected or 
 WARNING: [Synth 8-7129] Port led[0] in module top_demo is either unconnected or has no load
 WARNING: [Synth 8-7129] Port rst in module top_demo is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2489.953 ; gain = 549.766
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2484.543 ; gain = 546.023
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2507.836 ; gain = 567.648
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2502.465 ; gain = 563.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2507.836 ; gain = 567.648
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2502.465 ; gain = 563.945
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 2519.930 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 2514.477 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -314,26 +318,26 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2609.461 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2597.008 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2609.461 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2597.008 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2609.461 ; gain = 669.273
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2597.008 ; gain = 658.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2609.461 ; gain = 669.273
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2597.008 ; gain = 658.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2609.461 ; gain = 669.273
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2597.008 ; gain = 658.488
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm'
 INFO: [Synth 8-802] inferred FSM for state register 'CURRENT_STATE_reg' in module 'segment_driver'
@@ -356,7 +360,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_nextstate_re
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'CURRENT_STATE_reg' using encoding 'sequential' in module 'segment_driver'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2609.461 ; gain = 669.273
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2597.008 ; gain = 658.488
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -400,12 +404,9 @@ Detailed RTL Component Info :
 	   2 Input   64 Bit        Muxes := 3     
 	   2 Input   59 Bit        Muxes := 1     
 	   3 Input   37 Bit        Muxes := 1     
-	   2 Input   24 Bit        Muxes := 92    
+	   2 Input   24 Bit        Muxes := 93    
 	   4 Input   24 Bit        Muxes := 2     
-	 146 Input   24 Bit        Muxes := 1     
-	 136 Input   24 Bit        Muxes := 1     
-	   3 Input   24 Bit        Muxes := 1     
-	 134 Input   24 Bit        Muxes := 1     
+	 144 Input   24 Bit        Muxes := 1     
 	   2 Input   16 Bit        Muxes := 2     
 	   4 Input   10 Bit        Muxes := 4     
 	   2 Input   10 Bit        Muxes := 9     
@@ -424,6 +425,7 @@ Detailed RTL Component Info :
 	   2 Input    1 Bit        Muxes := 12    
 	   5 Input    1 Bit        Muxes := 1     
 	   6 Input    1 Bit        Muxes := 2     
+	 145 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -453,134 +455,3 @@ WARNING: [Synth 8-7129] Port hdmi_sda in module top_demo is either unconnected o
 WARNING: [Synth 8-7129] Port hdmi_scl in module top_demo is either unconnected or has no load
 WARNING: [Synth 8-7129] Port rst in module top_demo is either unconnected or has no load
 WARNING: [Synth 8-7129] Port hdmi_hpd in module top_demo is either unconnected or has no load
----------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2609.461 ; gain = 669.273
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2609.461 ; gain = 669.273
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Timing Optimization
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2609.461 ; gain = 669.273
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Technology Mapping
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2609.461 ; gain = 669.273
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Instances
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Rebuilding User Hierarchy
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Ports
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Nets
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Writing Synthesis Report
----------------------------------------------------------------------------------
-
-Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
-
-Report Cell Usage: 
-+------+-----------+------+
-|      |Cell       |Count |
-+------+-----------+------+
-|1     |BUFG       |     5|
-|2     |CARRY4     |    21|
-|3     |LUT1       |    12|
-|4     |LUT2       |   108|
-|5     |LUT3       |   152|
-|6     |LUT4       |    82|
-|7     |LUT5       |   252|
-|8     |LUT6       |   403|
-|9     |MMCME2_ADV |     1|
-|10    |MUXF7      |     6|
-|11    |MUXF8      |     1|
-|12    |OSERDESE2  |     8|
-|14    |FDCE       |    91|
-|15    |FDPE       |    27|
-|16    |FDRE       |   292|
-|17    |FDSE       |     5|
-|18    |LDC        |     8|
-|19    |IBUF       |    13|
-|20    |OBUF       |    12|
-|21    |OBUFDS     |     4|
-|22    |OBUFT      |     8|
-+------+-----------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 2618.016 ; gain = 576.203
-Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2618.016 ; gain = 677.828
-INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2626.078 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2633.730 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 8 instances were transformed.
-  LDC => LDCE: 8 instances
-
-Synth Design complete | Checksum: fb9560d5
-INFO: [Common 17-83] Releasing license: Synthesis
-100 Infos, 142 Warnings, 1 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:01:01 . Memory (MB): peak = 2633.730 ; gain = 1127.031
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/top_demo.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file top_demo_utilization_synth.rpt -pb top_demo_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May  3 14:23:36 2024...

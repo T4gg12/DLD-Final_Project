@@ -1,8 +1,9 @@
 module hdmi_top (n2,CLK_125MHZ, HDMI_TX, HDMI_TX_N, HDMI_CLK, 
-		 HDMI_CLK_N, HDMI_CEC, HDMI_SDA, HDMI_SCL, HDMI_HPD);
+		 HDMI_CLK_N, HDMI_CEC, HDMI_SDA, HDMI_SCL, HDMI_HPD, colorSwitch);
 		 
    input  logic [63:0] n2;
-   input logic         CLK_125MHZ;   
+   input logic         CLK_125MHZ; 
+   input logic colorSwitch;
 
    // HDMI output
    output logic [2:0]  HDMI_TX;   
@@ -91,8 +92,12 @@ module hdmi_top (n2,CLK_125MHZ, HDMI_TX, HDMI_TX_N, HDMI_CLK,
    
    // Color Choice
    logic [23:0] alive, dead;
-   assign alive = {8'hFF, 8'h00, 8'h00};
-   assign dead  = {8'h00, 8'h00, 8'hFF};
+   //assign alive = {8'hFF, 8'h00, 8'h00};
+   //assign dead  = {8'h00, 8'h00, 8'hFF};
+   assign seed8 = (colorSwitch) ? {8'h00, 8'hFF, 8'h00}:
+                                  {8'hFF, 8'h00, 8'h00};
+   assign seed8 = (colorSwitch) ? {8'h00, 8'h00, 8'hFF}:
+                                  {8'hFF, 8'h00, 8'h00};
 
    always @(posedge CLK_125MHZ)
      begin	

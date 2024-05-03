@@ -51,7 +51,7 @@ assign seed8 = (sw[7]) ? 64'h0412_6424_0034_3C28 ://scuicide
   // logic hdmi_out_en;
   //assign hdmi_out_en = 1'b0;
   hdmi_top test (n2, sysclk_125mhz, hdmi_d_p, hdmi_d_n, hdmi_clk_p, 
-		         hdmi_clk_n, hdmi_cec, hdmi_sda, hdmi_scl, hdmi_hpd);
+		         hdmi_clk_n, hdmi_cec, hdmi_sda, hdmi_scl, hdmi_hpd, sw[4]);
   
   // 7-segment display
   segment_driver driver(
