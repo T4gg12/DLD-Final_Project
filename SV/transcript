@@ -13,7 +13,7 @@
 # //
 # do callTo.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 16:50:54 on May 02,2024
+# Start time: 23:38:44 on May 02,2024
 # vlog -reportprogress 300 callTo_tb.sv callTo.sv fsm.sv lfsr.sv datapath.sv mux.sv clk_div.sv 
 # -- Compiling module callTo_tb
 # -- Compiling module callTo
@@ -29,26 +29,26 @@
 # 
 # Top level modules:
 # 	callTo_tb
-# End time: 16:50:54 on May 02,2024, Elapsed time: 0:00:00
+# 	clk_div
+# End time: 23:38:44 on May 02,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.callTo_tb 
-# Start time: 16:50:54 on May 02,2024
+# Start time: 23:38:44 on May 02,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "fsm(fast)".
 # Loading sv_std.std
 # Loading work.callTo_tb(fast)
 # Loading work.callTo(fast)
 # Loading work.fsm(fast)
-# Loading work.lfsr(fast)
 # Loading work.datapath(fast)
-# Loading work.clk_div(fast)
 # Loading work.evolve3(fast)
 # Loading work.rules(fast)
 # Loading work.evolve5(fast)
 # Loading work.evolve8(fast)
+# Loading work.lfsr(fast)
 # Loading work.mux2(fast)
 # .main_pane.list.interior.cs.body
 # .main_pane.wave.interior.cs.body.pw.wf
-add wave -r sim:/callTo_tb/*
-# End time: 16:51:17 on May 02,2024, Elapsed time: 0:00:23
+add wave -r /*
+# End time: 23:40:50 on May 02,2024, Elapsed time: 0:02:06
 # Errors: 0, Warnings: 0

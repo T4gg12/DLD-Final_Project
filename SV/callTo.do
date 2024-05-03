@@ -40,7 +40,6 @@ view wave
 add wave -noupdate -divider -height 32 "callTo_tb"
 # add wave -hex /callTo_tb/dut/clk
 # add wave -hex /callTo_tb/dut/sw1
-# add wave -hex /callTo_tb/dut/sw2
 # add wave -hex /callTo_tb/dut/reset
 # add wave -hex /callTo_tb/dut/seed
 # add wave -hex /callTo_tb/dut/shift_seed
