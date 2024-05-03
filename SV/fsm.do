@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog fsm.sv fsm_tb.sv
+vlog fsm.sv clk_div.sv fsm_tb.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.fsm_tb

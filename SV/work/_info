@@ -9,51 +9,51 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/zanef/OneDrive/Documents/GitHub/DLD-Final-Project/DLD-Final_Project/SV
+Z0 dC:/Users/zafranc/Downloads/DLD-Final_Project/SV
 T_opt
-!s110 1714711126
-V2K_nHV4GigiR;Lk7EUbd^3
+Z1 !s110 1714756136
+V`3_AU^HK6;o4:WjQ5FaZ10
 04 9 4 work callTo_tb fast 0
-=1-ac198e13c2ed-66346a55-263-4620
+=1-00be439059a6-66351a28-218-61d0
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
 OL;O;2021.3;73
 vcallTo
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1714711124
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
 !i10b 1
-!s100 iK`cXhckI<R^njJEPL9`[1
-I5fGPD?Jn<VCb?gNQN<6gh1
+!s100 ]_5L9T=ISn=cj6@?d`XZI0
+I]7`]LgDWkd]GcO34^d9i83
 S1
 R0
-w1714710201
+w1714755776
 8callTo.sv
 FcallTo.sv
 !i122 0
-L0 1 44
+L0 1 47
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z6 !s108 1714711124.000000
-Z7 !s107 clk_div.sv|mux.sv|datapath.sv|lfsr.sv|fsm.sv|callTo.sv|callTo_tb.sv|
-Z8 !s90 -reportprogress|300|callTo_tb.sv|callTo.sv|fsm.sv|lfsr.sv|datapath.sv|mux.sv|clk_div.sv|
+Z6 !s108 1714756136.000000
+Z7 !s107 flopr.sv|clk_div.sv|mux.sv|datapath.sv|lfsr.sv|fsm.sv|callTo.sv|callTo_tb.sv|
+Z8 !s90 -reportprogress|300|callTo_tb.sv|callTo.sv|fsm.sv|lfsr.sv|datapath.sv|mux.sv|clk_div.sv|flopr.sv|
 !i113 0
 Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+R2
 ncall@to
 vcallTo_tb
-R2
 R3
+R1
 !i10b 1
 !s100 =eKoPcECoMcEC1S=05N7S1
 InjVV4DKC4T;OaQQdcz@zX2
 S1
 R0
-w1714707147
+Z10 w1714751205
 8callTo_tb.sv
 FcallTo_tb.sv
 !i122 0
@@ -68,17 +68,17 @@ R7
 R8
 !i113 0
 R9
-R1
+R2
 ncall@to_tb
 vclk_div
-R2
 R3
+R1
 !i10b 1
 !s100 EW6`>zEZkIWzc>9Y:gGO^2
 IGl6NDT`3P>U4lgRCb4@hi2
 S1
 R0
-w1714675311
+R10
 8clk_div.sv
 Fclk_div.sv
 !i122 0
@@ -93,20 +93,20 @@ R7
 R8
 !i113 0
 R9
-R1
+R2
 vdatapath
-R2
 R3
+R1
 !i10b 1
-!s100 X9Zg;1ic[ZbchCnMII_5c0
-ImbTiE7aC9h_EiT2J`cnZ?2
+!s100 V;C_hS8f1BHnb36LBjYJ01
+I<ahlD=61ndBBilL@NE8dL1
 S1
 R0
-Z10 w1714710820
-Z11 8datapath.sv
-Z12 Fdatapath.sv
+Z11 w1714751261
+Z12 8datapath.sv
+Z13 Fdatapath.sv
 !i122 0
-L0 7 94
+L0 7 79
 R4
 R5
 r1
@@ -117,20 +117,20 @@ R7
 R8
 !i113 0
 R9
-R1
+R2
 vevolve3
-R2
 R3
+R1
 !i10b 1
-!s100 3XLzYO9jS4bC<:dk@TC;P1
-IbI2>]F>FnfJ1g`e?^ODnW1
+!s100 IXoNo]gEC0MZaJ37;nO_30
+IM8klP?6AAQElYj^^>dMog1
 S1
 R0
-R10
 R11
 R12
+R13
 !i122 0
-L0 103 14
+L0 88 14
 R4
 R5
 r1
@@ -141,20 +141,20 @@ R7
 R8
 !i113 0
 R9
-R1
+R2
 vevolve5
-R2
 R3
+R1
 !i10b 1
-!s100 EP`>b3ehk`[:a2AFf=nP22
-IfJ718TUdH6T1RiNVgbM1f0
+!s100 I^MlKOK_W3OeeJBMAXc:W2
+I:N2@j2?Hz8T^_^8H8DMB42
 S1
 R0
-R10
 R11
 R12
+R13
 !i122 0
-L0 118 17
+L0 103 17
 R4
 R5
 r1
@@ -165,20 +165,20 @@ R7
 R8
 !i113 0
 R9
-R1
+R2
 vevolve8
-R2
 R3
+R1
 !i10b 1
-!s100 5=a7gbcLafN88Mh<UXaWH0
-I=]_L21=l[[MZahaElFDL10
+!s100 X=VQ5`4bnRg0]4e9c_9PV1
+I9=CLF7`lSL3IgfFX:JW2G3
 S1
 R0
-R10
 R11
 R12
+R13
 !i122 0
-L0 137 23
+L0 122 23
 R4
 R5
 r1
@@ -189,20 +189,44 @@ R7
 R8
 !i113 0
 R9
-R1
-vfsm
 R2
+vflopr
 R3
+R1
 !i10b 1
-!s100 4cQ=QTYA<7g_A@_@UW0DM3
-IYG:?;3k^A5[CWFgf3Xnf10
+!s100 30N]9HzK_;[f0l`FVM10A3
+I[LZl7;aLFlE4D=AG7lF6J1
 S1
 R0
-w1714708055
+w1714753825
+8flopr.sv
+Fflopr.sv
+!i122 0
+L0 28 9
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vfsm
+R3
+R1
+!i10b 1
+!s100 XPX192HWeSBz_:H5c@XI72
+IcbTB>mTXJ3SBNk@[Y?]P61
+S1
+R0
+w1714754119
 8fsm.sv
 Ffsm.sv
 !i122 0
-L0 1 61
+L0 1 41
 R4
 R5
 r1
@@ -213,16 +237,16 @@ R7
 R8
 !i113 0
 R9
-R1
-vlfsr
 R2
+vlfsr
 R3
+R1
 !i10b 1
 !s100 h5Zj]m0B]Yk?ga;4[ho<O1
 I9SEYAf<_=EWHbQ10]fi_U0
 S1
 R0
-w1714362195
+R10
 8lfsr.sv
 Flfsr.sv
 !i122 0
@@ -237,16 +261,16 @@ R7
 R8
 !i113 0
 R9
-R1
-vmux2
 R2
+vmux2
 R3
+R1
 !i10b 1
 !s100 hOcNRabLfZUNYz8RoR[0l0
 I`1W<m<D?dD=[4JnjMVJ:P3
 S1
 R0
-w1714612566
+R10
 8mux.sv
 Fmux.sv
 !i122 0
@@ -261,20 +285,20 @@ R7
 R8
 !i113 0
 R9
-R1
-vrules
 R2
+vrules
 R3
+R1
 !i10b 1
-!s100 X:bC;05]D^F]SCGlAdDMQ1
-IU:5C5W@]OWVYeZXUaDCE_2
+!s100 JL3^U4`<X^MUIi:l8LemW2
+IBcFBl4c5NRZOko>2=jFA93
 S1
 R0
-R10
 R11
 R12
+R13
 !i122 0
-L0 162 9
+L0 147 9
 R4
 R5
 r1
@@ -285,4 +309,4 @@ R7
 R8
 !i113 0
 R9
-R1
+R2

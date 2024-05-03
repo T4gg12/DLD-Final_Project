@@ -24,12 +24,13 @@
 // and limitations under the License.
 ////////////////////////////////////////////////////////////////////////////////////////////////
 `timescale 1ns / 1ps
-module flop #(parameter WIDTH = 8) ( 
-  input  logic             clk,
-  input  logic [WIDTH-1:0] d, 
-  output logic [WIDTH-1:0] q);
+module flop #(parameter WIDTH = 64) ( 
+  input  logic clk,
+  input  logic reset,
+  input  logic [WIDTH-1:0] seed, 
+  output logic [WIDTH-1:0] shift_seed);
 
-  always_ff @(posedge clk)
-    q <= #1 d;
+  always_ff @(posedge clk, posedge reset)
+    shift_seed <= #1 seed;
 endmodule
 

@@ -30,22 +30,26 @@ module top_demo
 
   logic [16:0] CURRENT_COUNT;
   logic [16:0] NEXT_COUNT;
-  logic        smol_clk;
-  
-  // Internal signals
-  logic [7:0] red_out;
-  logic [7:0] green_out;
-  logic [7:0] blue_out;
   logic [63:0] n2;
-  logic [63:0] seed8;
+  logic smol_clk;
+  logic [63:0] seed8;                                     
+  logic out_clk;
   
-  // Instantiate clk_div module
-  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[0]), .clk_en(out_clk));
+assign seed8 = (sw[7]) ? 64'h0412_6424_0034_3C28 ://scuicide
+                (sw[6]) ? 64'h0000_0000_0007_0402 ://glider
+                (sw[5]) ? 64'h0000_001c_3800_0000 ://toad
+                          64'h0000_0008_0c18_0000;//The R-pentomino (default)
+ 
+  // Place Conway Game of Life instantiation here
+    // Instantiate clk_div module
+  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[0]),.speedSwitch(sw[4]), .clk_en(out_clk));
   
   // Instantiate callTo module
-  callTo callTo_inst(.seed(seed8), .clk(out_clk), .reset(sw[1]), .sw1(sw[2]), .sw2(sw[3]), .shift_seed(n2)); 
-  
+  callTo callTo_inst(.seed(seed8), .clk(out_clk), .reset(sw[1]), .sw1(sw[2]), .shift_seed(n2)); 
+ 
   // HDMI
+  // logic hdmi_out_en;
+  //assign hdmi_out_en = 1'b0;
   hdmi_top test (n2, sysclk_125mhz, hdmi_d_p, hdmi_d_n, hdmi_clk_p, 
 		         hdmi_clk_n, hdmi_cec, hdmi_sda, hdmi_scl, hdmi_hpd);
   
@@ -62,36 +66,19 @@ module top_demo
   .digit_anodes(sseg_an)
   );
 
-  // Assigning n2 inside always block
-  always @(posedge sysclk_125mhz or posedge rst) begin
-    if (rst) begin
-      n2 <= 64'h0412_6424_0034_3C28;
-    end else begin
-      // Your logic to update n2 goes here
-      // Example: n2 <= something;
-    end
-  end
-  
-  // Extract RGB components from n2
-  always_comb begin
-    red_out = n2[7:0];      // Extract red component
-    green_out = n2[15:8];    // Extract green component
-    blue_out = n2[23:16];    // Extract blue component
-  end
-
-  // Register logic storing clock counts
-  always @(posedge sysclk_125mhz) begin
-    if (btn[3]) begin
-      CURRENT_COUNT <= 17'h00000;
-    end else begin
-      CURRENT_COUNT <= NEXT_COUNT;
-    end
+// Register logic storing clock counts
+  always@(posedge sysclk_125mhz)
+  begin
+    if(btn[3])
+      CURRENT_COUNT = 17'h00000;
+    else
+      CURRENT_COUNT = NEXT_COUNT;
   end
   
   // Increment logic
-  assign NEXT_COUNT = (CURRENT_COUNT == 17'd100000) ? 17'h00000 : CURRENT_COUNT + 1;
+  assign NEXT_COUNT = CURRENT_COUNT == 17'd100000 ? 17'h00000 : CURRENT_COUNT + 1;
 
   // Creation of smaller clock signal from counters
-  assign smol_clk = (CURRENT_COUNT == 17'd100000) ? 1'b1 : 1'b0;
+  assign smol_clk = CURRENT_COUNT == 17'd100000 ? 1'b1 : 1'b0;
 
 endmodule

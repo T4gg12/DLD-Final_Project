@@ -1,15 +1,33 @@
 #-----------------------------------------------------------
-# Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu May  2 15:25:55 2024
-# Process ID: 26284
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri May  3 11:40:31 2024
+# Process ID: 8812
 # Current directory: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31420 C:\Users\zafranc\Downloads\DLD-Final_Project\Vivado\Project\Project.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16804 C:\Users\zafranc\Downloads\DLD-Final_Project\Vivado\Project\Project.xpr
 # Log file: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/vivado.log
 # Journal file: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project\vivado.jou
+# Running On: CEAT-ENDV350-06, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 68431 MB
 #-----------------------------------------------------------
 start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
 open_project C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.xpr
 CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/SV/all.sv'.
 CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/zafranc/Downloads/dldfall2022-main/Lab3/SV/clk_div.sv'.
@@ -50,27 +68,35 @@ CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Downloads/hdm
 CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/zafranc/Downloads/DLD-Final_Project/Demo/archive_project_summary.txt'.
 Scanning sources...
 Finished scanning sources
+INFO: [Project 1-1877] Auto incremental dir location 'C:/home/jstine/vivado/Demo/Demo.srcs/utils_1/imports/synth_1' of run 'synth_1' is not writable, setting it to default location 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/utils_1/imports/synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/home/jstine/vivado/Demo/Demo.srcs/utils_1/imports/impl_1' of run 'impl_1' is not writable, setting it to default location 'C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/utils_1/imports/impl_1'.
+INFO: [Project 1-230] Project 'Project.xpr' upgraded for this version of Vivado.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1073.867 ; gain = 0.000
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+upgrade_project -migrate_output_products
 update_compile_order -fileset sources_1
-add_files -norecurse {C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/callTo.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv}
+add_files -norecurse {C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/callTo.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/flopr.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv}
 WARNING: [filemgmt 56-12] File 'C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv' cannot be added to the project because it already exists in the project, skipping this file
 WARNING: [filemgmt 56-12] File 'C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv' cannot be added to the project because it already exists in the project, skipping this file
 WARNING: [filemgmt 56-12] File 'C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv' cannot be added to the project because it already exists in the project, skipping this file
 WARNING: [filemgmt 56-12] File 'C:/Users/zafranc/Downloads/DLD-Final_Project/SV/callTo.sv' cannot be added to the project because it already exists in the project, skipping this file
 WARNING: [filemgmt 56-12] File 'C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv' cannot be added to the project because it already exists in the project, skipping this file
 WARNING: [filemgmt 56-12] File 'C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1 -jobs 8
-[Thu May  2 15:27:31 2024] Launched synth_1...
+[Fri May  3 11:42:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri May  3 11:43:01 2024] Launched synth_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
 launch_runs impl_1 -jobs 8
-[Thu May  2 15:29:27 2024] Launched impl_1...
+[Fri May  3 11:44:18 2024] Launched impl_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
 launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 15:30:32 2024] Launched impl_1...
+[Fri May  3 11:45:31 2024] Launched impl_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
 open_hw_manager
 connect_hw_server -allow_non_jtag
@@ -78,27 +104,553 @@ INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
 INFO: [Labtools 27-2222] Launching hw_server...
 INFO: [Labtools 27-2221] Launch Output:
 
-****** Xilinx hw_server v2020.2
-  **** Build date : Nov 18 2020 at 10:01:48
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+****** Xilinx hw_server v2023.1.1
+  **** Build date : Jun 16 2023 at 19:52:37
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 
-INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
 INFO: [Labtools 27-3417] Launching cs_server...
 INFO: [Labtools 27-2221] Launch Output:
 
 
-******** Xilinx cs_server v2020.2
-  ****** Build date   : Nov 03 2020-15:02:56
-    **** Build number : 2020.2.1604437376
-      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : May 31 2023-13:31:41
+    **** Build number : 2023.1.1685557901
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 
 
-connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1150.055 ; gain = 47.746
 open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210014B0F320A
-open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2689.777 ; gain = 1539.723
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210014A24F20A
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Fri May  3 11:50:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  3 11:51:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri May  3 11:52:45 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Fri May  3 12:04:03 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  3 12:05:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri May  3 12:06:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210014A24F20A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210014A24F20A
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Fri May  3 12:14:52 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  3 12:16:21 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri May  3 12:17:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: top_demo
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [Synth 8-11014] non-net output port 'clk_audio_counter_wrap' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:13]
+WARNING: [Synth 8-11014] non-net output port 'cx' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:81]
+WARNING: [Synth 8-11014] non-net output port 'cy' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:82]
+WARNING: [Synth 8-10388] /* is inside a comment [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv:82]
+WARNING: [Synth 8-11014] non-net output port 'counter' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:11]
+WARNING: [Synth 8-9661] initial value of parameter 'VIDEO_RATE' is omitted [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:4]
+WARNING: [Synth 8-11014] non-net output port 'tmds' cannot be initialized at declaration in SystemVerilog mode [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:16]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3293.535 ; gain = 385.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_demo' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/clk_div.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'callTo' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/callTo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'fsm' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'fsm' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'lfsr' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'lfsr' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv:29]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/mux.sv:29]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'evolve3' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:88]
+INFO: [Synth 8-6157] synthesizing module 'rules' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'rules' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:147]
+INFO: [Synth 8-6155] done synthesizing module 'evolve3' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:88]
+INFO: [Synth 8-6157] synthesizing module 'evolve5' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:103]
+INFO: [Synth 8-6155] done synthesizing module 'evolve5' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:103]
+INFO: [Synth 8-6157] synthesizing module 'evolve8' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:122]
+INFO: [Synth 8-6155] done synthesizing module 'evolve8' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:122]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/datapath.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/flopr.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/flopr.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'callTo' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/callTo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_top' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:91135]
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:91135]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_pll_xilinx' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 37.125000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 2 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 5 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_pll_xilinx' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/pll.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'hdmi' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
+	Parameter VIDEO_ID_CODE bound to: 32'sb00000000000000000000000000000100 
+	Parameter VIDEO_REFRESH_RATE bound to: 60.000000 - type: double 
+	Parameter AUDIO_RATE bound to: 48000 - type: integer 
+	Parameter AUDIO_BIT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'packet_picker' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:4]
+	Parameter VIDEO_ID_CODE bound to: 32'sb00000000000000000000000000000100 
+	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
+	Parameter IT_CONTENT bound to: 1'b1 
+	Parameter AUDIO_BIT_WIDTH bound to: 16 - type: integer 
+	Parameter AUDIO_RATE bound to: 48000 - type: integer 
+	Parameter VENDOR_NAME bound to: 64'b0101010101101110011010110110111001101111011101110110111000000000 
+	Parameter PRODUCT_DESCRIPTION bound to: 128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter SOURCE_DEVICE_INFORMATION bound to: 8'b00000000 
+INFO: [Synth 8-6157] synthesizing module 'audio_clock_regeneration_packet' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:5]
+	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
+	Parameter AUDIO_RATE bound to: 48000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'audio_clock_regeneration_packet' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_clock_regeneration_packet.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'audio_sample_packet' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv:8]
+	Parameter SAMPLING_FREQUENCY bound to: 4'b0010 
+	Parameter WORD_LENGTH bound to: 4'b0010 
+INFO: [Synth 8-6155] done synthesizing module 'audio_sample_packet' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_sample_packet.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'auxiliary_video_information_info_frame' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv:5]
+	Parameter IT_CONTENT bound to: 1'b1 
+	Parameter VIDEO_ID_CODE bound to: 32'sb00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'auxiliary_video_information_info_frame' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/auxiliary_video_information_info_frame.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'source_product_description_info_frame' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv:5]
+	Parameter VENDOR_NAME bound to: 64'b0101010101101110011010110110111001101111011101110110111000000000 
+	Parameter PRODUCT_DESCRIPTION bound to: 128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter SOURCE_DEVICE_INFORMATION bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'source_product_description_info_frame' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/source_product_description_info_frame.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'audio_info_frame' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'audio_info_frame' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/audio_info_frame.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'packet_picker' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'packet_assembler' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'packet_assembler' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_assembler.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'tmds_channel' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+	Parameter CN bound to: 32'sb00000000000000000000000000000000 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_channel' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'tmds_channel__parameterized0' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+	Parameter CN bound to: 32'sb00000000000000000000000000000001 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_channel__parameterized0' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'tmds_channel__parameterized1' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+	Parameter CN bound to: 32'sb00000000000000000000000000000010 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:104]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'tmds_channel__parameterized1' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/tmds_channel.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'serializer' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
+	Parameter NUM_CHANNELS bound to: 32'sb00000000000000000000000000000011 
+	Parameter VIDEO_RATE bound to: 74250000.000000 - type: double 
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+INFO: [Synth 8-6155] done synthesizing module 'serializer' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/serializer.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi.sv:4]
+WARNING: [Synth 8-689] width (10) of port connection 'cx' does not match port width (11) of module 'hdmi' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_top' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/hdmi_top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'segment_driver' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:63]
+INFO: [Synth 8-6157] synthesizing module 'digit2segments' [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'digit2segments' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/digit2segments.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'segment_driver' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/vivado/segment_driver.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_demo' (0#1) [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:1]
+WARNING: [Synth 8-87] always_comb on 'out1_reg' did not result in combinational logic [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv:24]
+WARNING: [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/fsm.sv:26]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv:38]
+WARNING: [Synth 8-7137] Register shift_seed_reg in module lfsr has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/zafranc/Downloads/DLD-Final_Project/SV/lfsr.sv:36]
+WARNING: [Synth 8-3848] Net headers[255] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[254] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[253] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[252] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[251] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[250] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[249] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[248] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[247] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[246] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[245] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[244] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[243] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[242] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[241] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[240] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[239] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[238] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[237] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[236] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[235] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[234] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[233] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[232] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[231] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[230] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[229] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[228] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[227] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[226] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[225] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[224] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[223] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[222] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[221] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[220] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[219] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[218] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[217] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[216] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[215] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[214] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[213] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[212] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[211] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[210] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[209] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[208] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[207] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[206] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[205] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[204] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[203] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[202] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[201] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[200] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[199] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[198] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[197] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[196] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[195] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[194] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[193] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[192] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[191] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[190] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[189] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[188] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[187] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[186] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[185] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[184] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[183] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[182] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[181] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[180] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[179] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[178] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[177] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[176] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[175] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[174] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[173] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[172] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[171] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[170] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[169] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[168] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[167] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[166] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[165] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[164] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[163] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[162] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[161] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[160] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[159] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[158] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[157] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+WARNING: [Synth 8-3848] Net headers[156] in module/entity packet_picker does not have driver. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:29]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port HDMI_SDA in module hdmi_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HDMI_SCL in module hdmi_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HDMI_CEC in module hdmi_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HDMI_HPD in module hdmi_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[0] in module top_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module top_demo is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3432.914 ; gain = 524.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3450.793 ; gain = 542.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3450.793 ; gain = 542.266
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.100 . Memory (MB): peak = 3462.844 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-549] Could not create 'PRE_EMPHASIS' constraint because cell 'test/hdmi/true_hdmi_output.packet_picker/audio_sample_packet' is not directly connected to top level port. 'PRE_EMPHASIS' is ignored by Vivado but preserved inside the database. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/imports/dldfall22proj/ProjectHDMI/hdmi_working/packet_picker.sv:131]
+Resolution: It is recommended to apply the I/O constraint directly to the top level port instead of applying the constraint to the cell connected to the port.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'hdmi_out_en'. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/constrs_1/new/constr.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3552.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3614.938 ; gain = 706.410
+84 Infos, 127 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3614.938 ; gain = 1095.750
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 12:32:14 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+[Fri May  3 12:32:14 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 12:33:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+[Fri May  3 12:33:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 12:51:27 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+[Fri May  3 12:51:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 12:56:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+[Fri May  3 12:56:42 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 13:12:28 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+2. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Fri May  3 13:12:47 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 13:14:27 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+[Fri May  3 13:14:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Fri May  3 13:19:34 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Fri May  3 13:20:20 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Fri May  3 13:21:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Fri May  3 13:24:19 2024] Launched synth_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
+close_hw_manager
+launch_runs impl_1 -jobs 16
+[Fri May  3 13:26:45 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 13:28:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1.1
+  **** Build date : Jun 16 2023 at 19:52:37
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : May 31 2023-13:31:41
+    **** Build number : 2023.1.1685557901
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210014A24F20A
 set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
 current_hw_device [get_hw_devices xc7z020_1]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
@@ -114,14 +666,10 @@ reset_run synth_1
 WARNING: [Vivado 12-1017] Problems encountered:
 1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
 
-launch_runs synth_1 -jobs 8
-[Thu May  2 15:42:52 2024] Launched synth_1...
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 13:43:56 2024] Launched synth_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 15:44:35 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 15:45:40 2024] Launched impl_1...
+[Fri May  3 13:43:56 2024] Launched impl_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
 set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
@@ -134,14 +682,10 @@ reset_run synth_1
 WARNING: [Vivado 12-1017] Problems encountered:
 1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
 
-launch_runs synth_1 -jobs 8
-[Thu May  2 15:49:00 2024] Launched synth_1...
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 13:51:23 2024] Launched synth_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 15:50:05 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 15:51:36 2024] Launched impl_1...
+[Fri May  3 13:51:24 2024] Launched impl_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
 set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
@@ -154,42 +698,10 @@ reset_run synth_1
 WARNING: [Vivado 12-1017] Problems encountered:
 1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
 
-launch_runs synth_1 -jobs 8
-CRITICAL WARNING: [HDL 9-806] Syntax error near "endmodule". [C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.srcs/sources_1/new/top_demo.sv:126]
-[Thu May  2 16:00:14 2024] Launched synth_1...
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 14:17:44 2024] Launched synth_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
-
-launch_runs synth_1 -jobs 8
-[Thu May  2 16:05:46 2024] Launched synth_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 16:06:55 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
-
-launch_runs synth_1 -jobs 8
-[Thu May  2 16:08:44 2024] Launched synth_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 16:09:50 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
-
-launch_runs synth_1 -jobs 8
-[Thu May  2 16:12:09 2024] Launched synth_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 16:13:28 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 16:14:33 2024] Launched impl_1...
+[Fri May  3 14:17:44 2024] Launched impl_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
 set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
@@ -202,14 +714,10 @@ reset_run synth_1
 WARNING: [Vivado 12-1017] Problems encountered:
 1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
 
-launch_runs synth_1 -jobs 8
-[Thu May  2 16:17:33 2024] Launched synth_1...
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri May  3 14:22:22 2024] Launched synth_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 16:18:44 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 16:19:46 2024] Launched impl_1...
+[Fri May  3 14:22:22 2024] Launched impl_1...
 Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
 set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
@@ -218,45 +726,3 @@ program_hw_devices [get_hw_devices xc7z020_1]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
 INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
-
-launch_runs synth_1 -jobs 8
-[Thu May  2 16:41:26 2024] Launched synth_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 16:43:39 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 16:44:44 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1
-
-launch_runs synth_1 -jobs 8
-[Thu May  2 16:53:35 2024] Launched synth_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Thu May  2 16:54:43 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Thu May  2 16:55:46 2024] Launched impl_1...
-Run output will be captured here: C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/runme.log
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {C:/Users/zafranc/Downloads/DLD-Final_Project/Vivado/Project/Project.runs/impl_1/top_demo.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-exit
-INFO: [Common 17-206] Exiting Vivado at Thu May  2 16:57:44 2024...

@@ -25,13 +25,13 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 1ps
-module flopr #(parameter WIDTH = 8) ( 
+module flopr #(parameter WIDTH = 64) ( 
   input  logic             clk, reset,
-  input  logic [WIDTH-1:0] d, 
-  output logic [WIDTH-1:0] q);
+  input  logic [WIDTH-1:0] seed, 
+  output logic [WIDTH-1:0] shift_seed);
 
   always_ff @(posedge clk)
-    if (reset) q <= #1 0;
-    else       q <= #1 d;
+    if (reset) shift_seed <= #1 0;
+    else       shift_seed <= #1 seed;
 endmodule
 

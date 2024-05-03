@@ -5,40 +5,43 @@ module callTo (
     input logic sw1,
     output logic [63:0] shift_seed
 );
-
-    logic [63:0] fsm_shift_seed;
     logic [63:0] dp_shift_seed;
     logic [63:0] lfsr_shift_seed;
+    logic [63:0] flopr_shift_seed;
+    logic [63:0] mux_shift_seed;
     logic fsmOut;
 
     fsm dut_fsm (
         .clk(clk),
         .reset(reset),
         .switch1(sw1),
-        .seed(seed),
-        .shift_seed(fsm_shift_seed),
         .out1(fsmOut)
-    );
-
-    datapath dut_dp (
-        .grid(fsm_shift_seed),
-        .grid_evolve(dp_shift_seed),
-        .clk(clk),
-        .rst(reset)
     );
 
     lfsr dut_lfsr (
         .clk(clk),
         .reset(reset),
-        .seed(fsm_shift_seed),
+        .seed(seed),
         .shift_seed(lfsr_shift_seed)
     );
 
     mux2 #(64) dut_mux (
-        .d0(dp_shift_seed),
-        .d1(lfsr_shift_seed),
+        .d0(lfsr_shift_seed),
+        .d1(flopr_shift_seed),
         .s(fsmOut),
-        .y(shift_seed)
+        .y(mux_shift_seed)
     );
 
+    datapath dut_dp (
+        .grid(mux_shift_seed),
+        .grid_evolve(dp_shift_seed)
+    );
+    flopr dut_flop(
+        .reset(reset), 
+        .clk(clk), 
+        .seed(dp_shift_seed), 
+        .shift_seed(flopr_shift_seed)
+        );
+
+    assign shift_seed = flopr_shift_seed;
 endmodule
