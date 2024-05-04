@@ -37,12 +37,11 @@ module top_demo
   
 assign seed8 = (sw[7]) ? 64'h0412_6424_0034_3C28 ://scuicide
                 (sw[6]) ? 64'h0000_0000_0007_0402 ://glider
-                (sw[5]) ? 64'h0000_001c_3800_0000 ://toad
-                          64'h0000_0008_0c18_0000;//The R-pentomino (default)
- 
+                          64'h0000_001c_3800_0000 ;//toad
+                          
   // Place Conway Game of Life instantiation here
     // Instantiate clk_div module
-  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[0]),.speedSwitch(sw[4]), .clk_en(out_clk));
+  clk_div clk_div_inst(.clk(sysclk_125mhz), .rst(sw[0]),.speedSwitch(sw[5]), .clk_en(out_clk));
   
   // Instantiate callTo module
   callTo callTo_inst(.seed(seed8), .clk(out_clk), .reset(sw[1]), .sw1(sw[2]), .shift_seed(n2)); 
@@ -51,21 +50,8 @@ assign seed8 = (sw[7]) ? 64'h0412_6424_0034_3C28 ://scuicide
   // logic hdmi_out_en;
   //assign hdmi_out_en = 1'b0;
   hdmi_top test (n2, sysclk_125mhz, hdmi_d_p, hdmi_d_n, hdmi_clk_p, 
-		         hdmi_clk_n, hdmi_cec, hdmi_sda, hdmi_scl, hdmi_hpd, sw[4]);
+		         hdmi_clk_n, hdmi_cec, hdmi_sda, hdmi_scl, hdmi_hpd, sw[3], sw[4]);
   
-  // 7-segment display
-  segment_driver driver(
-  .clk(smol_clk),
-  .rst(btn[3]),
-  .digit0(sw[3:0]),
-  .digit1(4'b0111),
-  .digit2(sw[7:4]),
-  .digit3(4'b1111),
-  .decimals({1'b0, btn[2:0]}),
-  .segment_cathodes({sseg_dp, sseg_cg, sseg_cf, sseg_ce, sseg_cd, sseg_cc, sseg_cb, sseg_ca}),
-  .digit_anodes(sseg_an)
-  );
-
 // Register logic storing clock counts
   always@(posedge sysclk_125mhz)
   begin

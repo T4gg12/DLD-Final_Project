@@ -1,9 +1,10 @@
 module hdmi_top (n2,CLK_125MHZ, HDMI_TX, HDMI_TX_N, HDMI_CLK, 
-		 HDMI_CLK_N, HDMI_CEC, HDMI_SDA, HDMI_SCL, HDMI_HPD, colorSwitch);
+		 HDMI_CLK_N, HDMI_CEC, HDMI_SDA, HDMI_SCL, HDMI_HPD, colorSwitch, partySwitch);
 		 
    input  logic [63:0] n2;
-   input logic         CLK_125MHZ; 
+   input logic CLK_125MHZ; 
    input logic colorSwitch;
+   input logic partySwitch;
 
    // HDMI output
    output logic [2:0]  HDMI_TX;   
@@ -91,13 +92,61 @@ module hdmi_top (n2,CLK_125MHZ, HDMI_TX, HDMI_TX_N, HDMI_CLK,
    parameter	START = 270;   
    
    // Color Choice
-   logic [23:0] alive, dead;
-   //assign alive = {8'hFF, 8'h00, 8'h00};
-   //assign dead  = {8'h00, 8'h00, 8'hFF};
-   assign seed8 = (colorSwitch) ? {8'h00, 8'hFF, 8'h00}:
-                                  {8'hFF, 8'h00, 8'h00};
-   assign seed8 = (colorSwitch) ? {8'h00, 8'h00, 8'hFF}:
-                                  {8'hFF, 8'h00, 8'h00};
+    logic [23:0] alive, dead;
+    logic selectedColorIndex;
+    logic [23:0] colorList[10];
+    logic clk_hd;
+
+    initial begin
+        $randomize;
+    end
+
+    initial begin
+        colorList[0] = {8'hFF, 8'h6E, 8'hC7}; // Neon Pink
+        colorList[1] = {8'h80, 8'h80, 8'h00}; // Electric Blue
+        colorList[2] = {8'hA8, 8'hFF, 8'h00}; // Acid Green
+        colorList[3] = {8'hFF, 8'hD3, 8'h00}; // Cyber Yellow
+        colorList[4] = {8'h00, 8'hFF, 8'hFF}; // Techno Turquoise
+        colorList[5] = {8'hB3, 8'h00, 8'hFF}; // Laser Purple
+        colorList[6] = {8'h00, 8'hFF, 8'h00}; // Glowstick Green
+        colorList[7] = {8'hFF, 8'h00, 8'hFF}; // Hot Magenta
+        colorList[8] = {8'hFF, 8'h66, 8'h00}; // Atomic Orange
+        colorList[9] = {8'hFF, 8'h33, 8'h33}; // Radiant Red
+    end
+
+    function void generateRandomColor();
+        if (partySwitch) begin
+            selectedColorIndex = $urandom_range(0, 9);
+        end
+    endfunction
+    
+    clk_div_hdmi clk_hdmi_inst(.clk(CLK_125MHZ), .clk_en(clk_hd));
+
+    always_ff @(posedge clk_hd) begin
+        generateRandomColor();
+    end
+    
+        always_ff @(posedge clk_hd) begin
+        if (partySwitch) begin
+            alive <= colorList[selectedColorIndex];
+        end else begin
+            if (colorSwitch) begin
+                alive <= {8'h00, 8'hFF, 8'h00};
+            end else begin
+                alive <= {8'hFF, 8'h00, 8'h00};
+            end
+        end
+    
+        if (partySwitch) begin
+            dead <= {8'h80, 8'h80, 8'h80};
+        end else begin
+            if (colorSwitch) begin
+                dead <= {8'hFF, 8'h00, 8'h00};
+            end else begin
+                dead <= {8'h00, 8'h00, 8'hFF};
+            end
+        end
+    end
 
    always @(posedge CLK_125MHZ)
      begin	
