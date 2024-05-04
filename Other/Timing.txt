@@ -1,4 +1,47 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
+| Date         : Fri May  3 21:20:53 2024
+| Host         : CEAT-ENDV350-11 running 64-bit major release  (build 9200)
+| Command      : report_timing -file route_report_timing_0.rpt -rpx route_report_timing_0.rpx
+| Design       : top_demo
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 sw[1]
+                            (input port)
+  Destination:            callTo_inst/dut_flop/shift_seed_reg[35]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        15.738ns  (logic 2.813ns (17.872%)  route 12.926ns (82.128%))
+  Logic Levels:           6  (IBUF=1 LDCE=1 LUT2=1 LUT5=2 LUT6=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    U5                                                0.000     0.000 r  sw[1] (IN)
+                         net (fo=0)                   0.000     0.000    sw[1]
+    U5                   IBUF (Prop_ibuf_I_O)         1.432     1.432 r  sw_IBUF[1]_inst/O
+                         net (fo=111, routed)         7.864     9.295    callTo_inst/dut_lfsr/sw_IBUF[0]
+    SLICE_X96Y126        LUT2 (Prop_lut2_I0_O)        0.124     9.419 r  callTo_inst/dut_lfsr/shift_seed_reg[58]_LDC_i_2/O
+                         net (fo=15, routed)          0.671    10.090    callTo_inst/dut_lfsr/shift_seed_reg[58]_LDC_i_2_n_0
+    SLICE_X99Y129        LDCE (SetClr_ldce_CLR_Q)     0.885    10.975 f  callTo_inst/dut_lfsr/shift_seed_reg[58]_LDC/Q
+                         net (fo=28, routed)          1.502    12.477    callTo_inst/dut_lfsr/shift_seed_reg[58]_LDC_n_0
+    SLICE_X95Y139        LUT5 (Prop_lut5_I2_O)        0.124    12.601 r  callTo_inst/dut_lfsr/shift_seed[42]_i_2/O
+                         net (fo=22, routed)          2.109    14.710    callTo_inst/dut_flop/shift_seed_reg[59]_1[16]
+    SLICE_X96Y132        LUT5 (Prop_lut5_I2_O)        0.124    14.834 r  callTo_inst/dut_flop/shift_seed[35]_i_3/O
+                         net (fo=1, routed)           0.780    15.614    callTo_inst/dut_lfsr/shift_seed_reg[35]
+    SLICE_X96Y132        LUT6 (Prop_lut6_I1_O)        0.124    15.738 r  callTo_inst/dut_lfsr/shift_seed[35]_i_1/O
+                         net (fo=1, routed)           0.000    15.738    callTo_inst/dut_flop/D[19]
+    SLICE_X96Y132        FDRE                                         r  callTo_inst/dut_flop/shift_seed_reg[35]/D
+  -------------------------------------------------------------------    -------------------
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
 | Date         : Fri May  3 21:20:53 2024
@@ -223,5 +266,7 @@ Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing 
 | Timing Details
 | --------------
 ------------------------------------------------------------------------------------------------
+
+
 
 

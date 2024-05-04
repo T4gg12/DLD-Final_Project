@@ -1,12 +1,12 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date             : Fri May  3 21:20:53 2024
+| Date             : Fri May  3 21:20:17 2024
 | Host             : CEAT-ENDV350-11 running 64-bit major release  (build 9200)
-| Command          : report_power -file top_demo_power_routed.rpt -pb top_demo_power_summary_routed.pb -rpx top_demo_power_routed.rpx
+| Command          : report_power -file init_report_power_0.rpt -pb init_report_power_summary_0.pb -rpx init_report_power_0.rpx
 | Design           : top_demo
 | Device           : xc7z020clg484-1
-| Design State     : routed
+| Design State     : synthesized
 | Grade            : commercial
 | Process          : typical
 | Characterization : Production
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 22.257 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 24.034 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 21.216                           |
+| Dynamic (W)              | 22.994                           |
 | Device Static (W)        | 1.041                            |
 | Effective TJA (C/W)      | 11.5                             |
 | Max Ambient (C)          | 0.0                              |
@@ -52,18 +52,18 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     8.234 |     1839 |       --- |             --- |
-|   LUT as Logic |     7.911 |     1039 |     53200 |            1.95 |
+| Slice Logic    |     8.112 |     1840 |       --- |             --- |
+|   LUT as Logic |     7.785 |     1040 |     53200 |            1.95 |
 |   Register     |     0.246 |      443 |    106400 |            0.42 |
-|   CARRY4       |     0.043 |       22 |     13300 |            0.17 |
+|   CARRY4       |     0.048 |       22 |     13300 |            0.17 |
 |   BUFG         |     0.031 |        5 |        32 |           15.63 |
 |   F7/F8 Muxes  |     0.002 |        9 |     53200 |            0.02 |
 |   Others       |     0.000 |       32 |       --- |             --- |
-| Signals        |     6.769 |     1601 |       --- |             --- |
+| Signals        |     8.669 |     1719 |       --- |             --- |
 | MMCM           |     3.367 |        1 |         4 |           25.00 |
 | I/O            |     2.846 |       37 |       200 |           18.50 |
 | Static Power   |     1.041 |          |           |                 |
-| Total          |    22.257 |          |           |                 |
+| Total          |    24.034 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |    15.842 |      15.543 |      0.299 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |    17.619 |      17.321 |      0.299 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     2.137 |       2.037 |      0.100 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.609 |       0.608 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -102,7 +102,7 @@ Table of Contents
 +-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | User Input Data             | Confidence | Details                                                | Action                                                                                                             |
 +-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Design implementation state | Low        | Design is synthesized                                  | Accuracy of the tool is not optimal until design is fully placed and routed                                        |
 | Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
 | I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
 | Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
@@ -147,22 +147,22 @@ Table of Contents
 +-----------------------------------------+-----------+
 | Name                                    | Power (W) |
 +-----------------------------------------+-----------+
-| top_demo                                |    21.216 |
-|   callTo_inst                           |    10.718 |
-|     dut_flop                            |     4.497 |
-|     dut_fsm                             |     0.055 |
-|     dut_lfsr                            |     6.166 |
-|   clk_div_inst                          |     0.106 |
-|   test                                  |    10.210 |
-|     clk_hdmi_inst                       |     0.062 |
-|     hdmi                                |     3.579 |
+| top_demo                                |    22.994 |
+|   callTo_inst                           |    11.680 |
+|     dut_flop                            |     5.027 |
+|     dut_fsm                             |     0.087 |
+|     dut_lfsr                            |     6.566 |
+|   clk_div_inst                          |     0.036 |
+|   test                                  |    11.125 |
+|     clk_hdmi_inst                       |     0.026 |
+|     hdmi                                |     4.463 |
 |       serializer                        |     0.106 |
-|       tmds_gen[0].tmds_channel          |     0.197 |
-|       tmds_gen[1].tmds_channel          |     0.195 |
-|       tmds_gen[2].tmds_channel          |     0.125 |
-|       true_hdmi_output.packet_assembler |     0.294 |
-|       true_hdmi_output.packet_picker    |     0.673 |
-|     hdmi_pll                            |     3.421 |
+|       tmds_gen[0].tmds_channel          |     0.289 |
+|       tmds_gen[1].tmds_channel          |     0.311 |
+|       tmds_gen[2].tmds_channel          |     0.256 |
+|       true_hdmi_output.packet_assembler |     0.367 |
+|       true_hdmi_output.packet_picker    |     0.892 |
+|     hdmi_pll                            |     3.455 |
 +-----------------------------------------+-----------+
 
 
